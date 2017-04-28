@@ -1,0 +1,67 @@
+@import url(reset.css);
+.socseti{
+	width: 270px; 
+	height: 150px;
+	margin:200px auto;
+	background: url(../images/bg-soc.png) no-repeat;
+	padding: 15px;
+}
+	.socseti p{
+		font:14px 'PT-sans', Arial, sans-serif;
+		text-transform: uppercase;
+		text-align: center;	
+		margin-top: 10px;
+	}
+	.socseti ul{
+		overflow: hidden;
+		width: 246px;
+		margin:20px auto;
+	}
+		.socseti ul li{
+			float: left;
+			margin-left:2px;
+		}
+		.socseti ul li:last-child{
+			margin-right: 2px
+		}
+			.socseti ul li a{
+				display: block;
+				width: 59px;
+				height: 59px;
+			}
+				a.tvitter{
+					background: url(../images/css-sprite-iconok2.png) -59px -59px no-repeat;
+					transition:.3s;
+				}
+					a.tvitter:hover{
+						background: url(../images/css-sprite-iconok2.png) -59px 0 no-repeat;
+						transition:.3s;
+				}
+
+				a.googlePlus{
+					background: url(../images/css-sprite-iconok2.png) -118px -59px no-repeat;
+					transition:.3s;
+				}
+					a.googlePlus:hover{
+						background: url(../images/css-sprite-iconok2.png) -118px 0 no-repeat;
+						transition:.3s;
+					}
+				a.vk{
+					background: url(../images/css-sprite-iconok2.png) 0 -59px no-repeat;
+					transition:.3s;
+				}
+					a.vk:hover{
+						background: url(../images/css-sprite-iconok2.png) no-repeat;
+						transition:.3s;
+					}
+				a.rss{
+					background: url(../images/css-sprite-iconok2.png) -177px -59px no-repeat;
+					transition:.3s;
+				}
+					a.rss:hover{
+						background: url(../images/css-sprite-iconok2.png) -177px 0px no-repeat;
+						transition:.3s;
+					}
+
+
+
